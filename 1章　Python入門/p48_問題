@@ -1,0 +1,18 @@
+## https://colab.research.google.com/drive/1PPke_Syjp5JmSenxO6XHyWS4imicpxVM#scrollTo=9QZMM2Hqbs-t
+
+# 変数a, b, cの値をそれぞれ設定します
+a = 1000
+b = 2000
+c = 3000
+
+# aを7で割った余りを変数dに代入」します
+d = a % 7
+
+# 上の結果に、累算代入演算子を利用してbを7で割ったあまりを加えて下さい
+d += (b%7)
+
+# 更にその結果に、ｃを7で割った余りを加えます
+d += (c%7)
+
+# print関数で結果を表示します。
+print(d)
