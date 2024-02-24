@@ -1,5 +1,5 @@
 # c = b - a
-#aが３　bが１０
+# aが３　bが１０
 #　変数aの値を代入で設定
 #　変数bの値を代入で設定
 #　aとbを用いて変数ｃを計算し代入
@@ -8,3 +8,25 @@ a = 3
 b = 10
 c = b-a
 print(a,b,c)
+
+
+### 公式解答 ### 
+https://colab.research.google.com/github/makaishi2/data_analysis_book_info/blob/main/notebooks/ch01_03_ans.ipynb#scrollTo=3GyhSJotBq4s
+
+
+# 変数aの値を「代入」により設定します
+# 1.3.2項　コード1-3-1参照
+a = 3
+
+# 変数bの値を「代入」により設定します
+b = 10
+
+# 変数aと変数bを用いて変数cの値を計算し、代入します
+# 1.3.4項　コード1-3-5参照
+c = b - a
+
+# print関数を用いて、変数a, 変数b, 変数ｃの値を順番に表示します
+# 1.3.5項　コード1-3-11参照
+print(a)
+print(b)
+print(c)
