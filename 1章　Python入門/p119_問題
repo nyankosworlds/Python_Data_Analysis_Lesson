@@ -1,0 +1,9 @@
+# 処理対象のリスト
+cabins = ['B5', 'C22', 'G6']
+
+# 内包表記を用いて新しいリストlengthsを作る
+
+lengths = [len(x) for x in cabins]
+
+# 結果の確認
+print(lengths)
